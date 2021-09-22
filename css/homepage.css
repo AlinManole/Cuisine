@@ -2,15 +2,19 @@
     .content {
         color: white;
         background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        height: 400px;
+        padding-top: 80px;
     }
     header {
-        height: 400px;
-        
+        position: absolute;
+        /* position:fixed; */
+        width: 100%;
     }
     nav {
         border-bottom: 1px solid white;
     }
-    header, .mag {
+    header, .content {
         font-family: 'Courgette';
     }
     .mag img {
@@ -20,6 +24,4 @@
         background-image: url("../img/header.jpg");
         background-position: center;
     }
-
-
 }
