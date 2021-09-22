@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+    header {
+        background: url(/img/header.jpg);
+        background-repeat: no-repeat;
+        background-position: auto;
+        display: flex;
+    }
+
+    .navbar-brand {
+        font-family: 'Courgette', cursive;
+    }
+}
