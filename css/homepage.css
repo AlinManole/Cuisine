@@ -1,6 +1,10 @@
 @media (max-width: 600px) {
+    .content {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
     header {
-        height: 600px;
+        height: 400px;
     }
     nav {
         border-bottom: 1px solid white;
@@ -8,7 +12,6 @@
     header, .mag {
         font-family: 'Courgette';
     }
-
     .mag {
         position: absolute;
         text-align: center;
@@ -25,9 +28,5 @@
         position: relative;
         background-image: url("/img/header.jpg");
         background-position: center;
-    }
-    .content {
-        color: white;
-        background-color: rgba(0, 0, 0, 0.8);
     }
 }
