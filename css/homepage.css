@@ -5,6 +5,8 @@
     }
     header {
         height: 400px;
+        overflow-y:scroll;
+        
     }
     nav {
         border-bottom: 1px solid white;
@@ -16,8 +18,9 @@
         height: 70px;
     }
     .top-section {
-        position: relative;
-        background-image: url("/img/header.jpg");
+        background-image: url("../img/header.jpg");
         background-position: center;
     }
+
+
 }
