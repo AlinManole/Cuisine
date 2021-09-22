@@ -12,17 +12,8 @@
     header, .mag {
         font-family: 'Courgette';
     }
-    .mag {
-        position: absolute;
-        text-align: center;
-    }
     .mag img {
-        display: flex;
-        justify-content: center;
-        height: 100px;
-        width: 100px;
-        position: relative;
-        left: 190px;
+        height: 70px;
     }
     .top-section {
         position: relative;
