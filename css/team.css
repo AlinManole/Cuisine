@@ -146,3 +146,21 @@
         margin-left: 100px;
     }
 }
+
+@media (min-width:975px) {
+    .container-fluid{
+        justify-content: flex-end;
+    }
+    .collapse {
+        justify-content: flex-end;
+    }
+
+    .justify {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-md {
+        display: disa;
+    }
+}
