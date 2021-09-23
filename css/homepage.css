@@ -69,7 +69,7 @@
     .top-section {
         background-image: url("../img/header.jpg");
         background-position: center;
-        background-repeat: repeat;
+        background-repeat: no-repeat;
     }
     .medium {
         display: flex;
