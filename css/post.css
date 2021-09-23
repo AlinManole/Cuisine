@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (min-width: 483px) {
     .content {
         color: white;
         background-color: rgba(0, 0, 0, 0.7);
@@ -15,7 +15,7 @@
         border-bottom: 1px solid white;
     }
     header, .content {
-        font-family: 'Courgette',cursive;
+        font-family: 'Courgette', cursive;
     }
     .mag img {
         height: 70px;
@@ -27,22 +27,18 @@
     .mag img {
         margin-bottom: 10px;
     }
-
-    h1,h2,h3,h4,h5,h6{
-        font-family: "Courgette",cursive;
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Courgette", cursive;
         margin-bottom: 10px;
     }
-
     h3 {
         font-size: 18px;
     }
-
     .m-3 h1 {
         font-family: Arial, Helvetica, sans-serif;
     }
-
     p {
-        font-family:"Oswald", sans-serif;
+        font-family: "Oswald", sans-serif;
     }
 }
 
@@ -59,8 +55,8 @@
         font-family: 'Courgette', cursive;
     }
     .top-section {
-        background-image: url("../img/articles/suzette/suzette-small.jpg");
-        background-position:center;
+        background-image: url("../img/articles/suzette/suzette-header.jpg");
+        background-position: center;
         background-repeat: no-repeat;
     }
     .medium {
