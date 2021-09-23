@@ -44,7 +44,6 @@
         display: flex;
         justify-content: space-between;
     }
-    footer {}
 }
 
 @media (min-width: 700px) {

@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (min-width: 483px) {
     .content {
         color: white;
         background-color: rgba(0, 0, 0, 0.7);
@@ -23,7 +23,6 @@
     .top-section {
         background-image: url("../img/team/team.jpg");
         background-position: center;
-        
     }
     .mag img {
         margin-bottom: 10px;
@@ -94,24 +93,20 @@
     }
     .medium-1 {
         display: flex;
-        flex-wrap:nowrap;
+        flex-wrap: nowrap;
         flex-direction: row;
         margin: 20px 0;
     }
-
     .medium-2 {
         margin-top: 20px;
     }
-
     .medium-2 h2 {
         font-size: 22px;
         font-weight: 400;
     }
-
     .medium-2 p {
         font-size: 12px;
     }
-
     .medium-1 img {
         height: 130px;
         margin-top: 20px;
@@ -141,26 +136,42 @@
     p {
         font-family: "Oswald", sans-serif;
     }
-
     .foot-md {
         margin-left: 100px;
     }
 }
 
 @media (min-width:975px) {
-    .container-fluid{
-        justify-content: flex-end;
+    .titres h1 {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .titres h2 {
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .containers {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pad {
+        padding: 30px;
+        margin: 30px;
+    }
+    .container img {
+        height: 150px;
+        width: 150px;
+    }
+    .titres-lg {
+        text-align: center;
     }
     .collapse {
         justify-content: flex-end;
-    }
-
-    .justify {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .container-md {
-        display: disa;
     }
 }
