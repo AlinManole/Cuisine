@@ -40,6 +40,11 @@
     p {
         font-family: "Oswald", sans-serif;
     }
+
+    .justify {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width: 700px) {
@@ -50,6 +55,13 @@
     }
     nav {
         border-bottom: 1px solid white;
+    }
+    .container-fluid {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    header div {
+        margin: 0;
     }
     header, .content {
         font-family: 'Courgette', cursive;
@@ -65,24 +77,20 @@
     }
     .medium-1 {
         display: flex;
-        flex-wrap:nowrap;
+        flex-wrap: nowrap;
         flex-direction: row;
         margin: 20px 0;
     }
-
     .medium-2 {
         margin-top: 20px;
     }
-
     .medium-2 h2 {
         font-size: 22px;
         font-weight: 400;
     }
-
     .medium-2 p {
         font-size: 12px;
     }
-
     .medium-1 img {
         height: 130px;
         margin-top: 20px;
@@ -112,8 +120,29 @@
     p {
         font-family: "Oswald", sans-serif;
     }
-
     .foot-md {
         margin-left: 100px;
+    }
+    .justify {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:975px) {
+    .container-fluid{
+        justify-content: flex-end;
+    }
+    .collapse {
+        justify-content: flex-end;
+    }
+
+    .justify {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-md {
+        display: disa;
     }
 }
