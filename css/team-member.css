@@ -1,0 +1,47 @@
+@media (max-width: 576px) {
+    .content {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        height: 400px;
+        padding-top: 80px;
+    }
+    header {
+        position: absolute;
+        /* position:fixed; */
+        width: 100%;
+    }
+    nav {
+        border-bottom: 1px solid white;
+    }
+    header, .content {
+        font-family: 'Courgette',cursive;
+    }
+    .mag img {
+        height: 70px;
+    }
+    .top-section {
+        background-image: url("../img/");
+        background-position: center;
+    }
+    .mag img {
+        margin-bottom: 10px;
+    }
+
+    h1,h2,h3{
+        font-family: "Courgette",cursive;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .m-3 h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        font-family:"Oswald", sans-serif;
+    }
+}

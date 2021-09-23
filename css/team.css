@@ -1,0 +1,71 @@
+@media (max-width: 576px) {
+    .content {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        height: 400px;
+        padding-top: 80px;
+    }
+    header {
+        position: absolute;
+        /* position:fixed; */
+        width: 100%;
+    }
+    nav {
+        border-bottom: 1px solid white;
+    }
+    header, .content {
+        font-family: 'Courgette', cursive;
+    }
+    .mag img {
+        height: 70px;
+    }
+    .top-section {
+        background-image: url("../img/team/team.jpg");
+        background-position: center;
+    }
+    .mag img {
+        margin-bottom: 10px;
+    }
+    section {
+        margin-bottom: 60px;
+    }
+    h1, h2, h3, .titres {
+        font-family: "Courgette", cursive;
+        margin-bottom: 10px;
+    }
+    .titres {
+        text-align: center;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    .titres h1 {
+        width: 60%;
+        margin-left: 60px;
+    }
+    .titres h2 {
+        padding-right: 50px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container img {
+        border-radius: 70%;
+        width: 30%;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .m-3 h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p {
+        font-family: "Oswald", sans-serif;
+        color: darkgray;
+    }
+    footer h2, footer h3 {
+        margin-top: 50px;
+    }
+}
