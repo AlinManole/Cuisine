@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (min-width: 483px) {
     .content {
         color: white;
         background-color: rgba(0, 0, 0, 0.7);
@@ -15,7 +15,7 @@
         border-bottom: 1px solid white;
     }
     header, .content {
-        font-family: 'Courgette',cursive;
+        font-family: 'Courgette', cursive;
     }
     .mag img {
         height: 70px;
@@ -27,21 +27,93 @@
     .mag img {
         margin-bottom: 10px;
     }
-
-    h1,h2,h3,h4,h5,h6{
-        font-family: "Courgette",cursive;
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Courgette", cursive;
         margin-bottom: 10px;
     }
-
     h3 {
         font-size: 18px;
     }
-
     .m-3 h1 {
         font-family: Arial, Helvetica, sans-serif;
     }
-
     p {
-        font-family:"Oswald", sans-serif;
+        font-family: "Oswald", sans-serif;
+    }
+}
+
+@media (min-width: 700px) {
+    header {
+        position: absolute;
+        /* position:fixed; */
+        width: 100%;
+    }
+    nav {
+        border-bottom: 1px solid white;
+    }
+    header, .content {
+        font-family: 'Courgette', cursive;
+    }
+    .top-section {
+        background-image: url("../img/articles/suzette/suzette-header.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .medium {
+        display: flex;
+        flex-direction: column;
+    }
+    .medium-1 {
+        display: flex;
+        flex-wrap:nowrap;
+        flex-direction: row;
+        margin: 20px 0;
+    }
+
+    .medium-2 {
+        margin-top: 20px;
+    }
+
+    .medium-2 h2 {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .medium-2 p {
+        font-size: 12px;
+    }
+
+    .medium-1 img {
+        height: 130px;
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+    .content {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        height: 400px;
+        padding-top: 80px;
+    }
+    .mag img {
+        height: 70px;
+        margin-bottom: 10px;
+    }
+    h1, h2, h3 {
+        font-family: "Courgette", cursive;
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .m-3 h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p {
+        font-family: "Oswald", sans-serif;
+    }
+
+    .foot-md {
+        margin-left: 100px;
     }
 }
