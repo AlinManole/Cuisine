@@ -44,7 +44,11 @@
         display: flex;
         justify-content: space-between;
     }
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> 79e3bd6b9ef226ff4f994d3252cc8b8434108210
 
 @media (min-width: 700px) {
     header {
