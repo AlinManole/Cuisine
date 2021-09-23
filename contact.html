@@ -51,40 +51,58 @@
     </div>
 
     <!-- Section --->
-    <section class="m-3">
-        <h1> Contact</h1>
-        <h2>Adresse</h2>
-        <P>Station F</P>
-        <P>5 Parvis Alan Turing</P>
-        <P>75013 Paris</P>
-        <div class="mx-auto">
-            <div>
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="461" height="396" id="gmap_canvas" src="https://maps.google.com/maps?q=5%20parvis%20alan%20turing%2075013&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://soap2day-to.com">soap2day</a><br><style>.mapouter{position:relative;text-align:right;height:496px;width:561px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:396px;width:461px;}</style></div></div>
+    <section class="m-3 d-flex">
+        <div>
+            <h1> Contact</h1>
+            <h2>Adresse</h2>
+            <P>Station F</P>
+            <P>5 Parvis Alan Turing</P>
+            <P>75013 Paris</P>
+            <div class="mx-auto">
+                <div>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="461" height="396" id="gmap_canvas" src="https://maps.google.com/maps?q=5%20parvis%20alan%20turing%2075013&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://soap2day-to.com">soap2day</a><br><style>.mapouter{position:relative;text-align:right;height:496px;width:561px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:396px;width:461px;}</style></div></div>
+                </div>
             </div>
         </div>
+        <div>
+            <div class="w-100 foot-md">
+                <h3>Recherche</h3>
+                <form class="d-flex">
+                    <input class="form-control w-25 me-2" type="email" placeholder="Recherche..." aria-label="text">
+                    <button class="btn btn-outline-light" type="submit">Ok</button>
+                </form>
+                <h3>Newsletter</h3>
+                <form class="d-flex">
+                    <input class="form-control w-25 me-2" type="email" placeholder="Email..." aria-label="Email">
+                    <button class="btn btn-outline-light" type="submit">S'inscrire</button>
+                </form>
+            </div>
+    
+        </div>
+        
     </section>
 
     <!-- Footer -->
 
-    <footer class="bg-dark text-white py-5 px-2">
-        <div class="d-flex flex-column foot-md">
+    <footer class="bg-dark justify-content-lg-around text-white d-xl-flex py-5 px-2">
+        <div class="d-flex flex-column m-5 foot-md">
             <h2>Catégories</h2>
             <a href="" class="text-white">Revues</a>
             <a href="" class="text-white">Recettes</a>
             <a href="" class="text-white">Découvertes</a>
         </div>
 
-        <div class="d-flex flex-column foot-md">
+        <div class="d-flex flex-column m-5 foot-md">
             <h2>Archives</h2>
             <a href="" class="text-white">2019</a>
             <a href="" class="text-white">2018</a>
             <a href="" class="text-white">2017</a>
         </div>
-
-        <div class="w-50 foot-md">
+    <div class="m-5">
+        <div class="w-75 md foot-md">
             <h3>Newsletter</h3>
             <form class="d-flex">
-                <input class="form-control w-25 me-2" type="email" placeholder="Email..." aria-label="Email">
+                <input class="form-control me-2" type="email" placeholder="Email..." aria-label="Email">
                 <button class="btn btn-outline-light" type="submit">S'inscrire</button>
             </form>
         </div>
@@ -98,7 +116,8 @@
                 <i class="fab m-2 fa-twitter"></i>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
