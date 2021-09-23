@@ -40,11 +40,11 @@
     p {
         font-family: "Oswald", sans-serif;
     }
-
     .justify {
         display: flex;
         justify-content: space-between;
     }
+    footer {}
 }
 
 @media (min-width: 700px) {
@@ -69,7 +69,7 @@
     .top-section {
         background-image: url("../img/header.jpg");
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
     }
     .medium {
         display: flex;
@@ -130,19 +130,7 @@
 }
 
 @media (min-width:975px) {
-    .container-fluid{
-        justify-content: flex-end;
-    }
     .collapse {
         justify-content: flex-end;
-    }
-
-    .justify {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .container-md {
-        display: disa;
     }
 }
