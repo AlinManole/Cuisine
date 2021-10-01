@@ -30,7 +30,7 @@
     section {
         margin-bottom: 60px;
     }
-    h1, h2, h3, .titres {
+    h1, h2, h3, .titres , header a:first-child {
         font-family: "Courgette", cursive;
         margin-bottom: 10px;
     }
@@ -51,6 +51,16 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .pad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pad h2 {
+        text-align: center;
+    }
     .container img {
         border-radius: 70%;
         width: 30%;
@@ -64,6 +74,9 @@
     p, a {
         font-family: "Oswald", sans-serif;
         color: darkgray;
+    }
+    footer {
+        background-color: black;
     }
     footer h2, footer h3 {
         margin-top: 50px;
